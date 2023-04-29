@@ -8,6 +8,8 @@ public class BulletManager : MonoBehaviour
     public int _score = 1;
     [SerializeField] string deadlineTag;
 
+    public PlayerScore _scoreManager;
+
     Rigidbody rb;
     // Start is called before the first frame update
     void Start()
@@ -32,6 +34,8 @@ public class BulletManager : MonoBehaviour
 
     public void Vanish()
     {
+        _scoreManager._score += _score;
+        _scoreManager.scoreTextManager.OnScoreChanged(_scoreManager._score);
         Destroy(this.gameObject);
     }
 }
