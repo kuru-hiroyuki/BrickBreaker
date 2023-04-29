@@ -10,6 +10,8 @@ public class SystemFunctions : MonoBehaviour
     public string playActionMap;
     public string UIActionName;
 
+    public bool isLoading = false;
+
     public string _anotherSceneName;
 public void SetTimeScale(float value)
     {
@@ -22,14 +24,23 @@ public void SetTimeScale(float value)
 
     public void ReloadThisScene()
     {
+        if(!isLoading)
         SceneManager.LoadSceneAsync(gameObject.scene.name);
+        isLoading = true;
     }
     public void BackToTitle()
     {
+        if(!isLoading)
         SceneManager.LoadSceneAsync(_anotherSceneName);
+        isLoading = true;
     }
     public void EndGame()
     {
         Application.Quit();
+    }
+
+    private void Awake()
+    {
+        SetTimeScale(1f);
     }
 }
