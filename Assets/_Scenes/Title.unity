@@ -181,10 +181,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'B Button : Hajimeru'
+  m_text: "B \u30DC\u30BF\u30F3\uFF1A\u59CB\u3081\u308B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 36e9880fbfa168642a3eab4f8680017a, type: 2}
+  m_sharedMaterial: {fileID: 7519216617320456141, guid: 36e9880fbfa168642a3eab4f8680017a,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -419,10 +420,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A Button :Owaru
+  m_text: "A \u30DC\u30BF\u30F3\uFF1A\u7D42\u308F\u308B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 36e9880fbfa168642a3eab4f8680017a, type: 2}
+  m_sharedMaterial: {fileID: 7519216617320456141, guid: 36e9880fbfa168642a3eab4f8680017a,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -811,6 +813,7 @@ MonoBehaviour:
   playerInput: {fileID: 0}
   playActionMap: Player
   UIActionName: UI
+  isLoading: 0
   _anotherSceneName: MainGame
 --- !u!114 &1274234607
 MonoBehaviour:
@@ -945,7 +948,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 583, y: -272}
+  m_AnchoredPosition: {x: 614, y: -376}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1408372055
@@ -968,7 +971,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9ef59100b1d011b429e9fde70b7191bf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f3f3a78d7ba6e444d8ea0810d64321c8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
